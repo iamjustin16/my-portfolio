@@ -9,7 +9,8 @@
   "author": "Carlo Castro",
   "license": "MIT",
   "dependencies": {
-    "@uirouter/angularjs": "^1.0.15"
+    "@uirouter/angularjs": "^1.0.15",
+    "express": "^4.16.2"
   },
   "devDependencies": {},
   "repository": {
