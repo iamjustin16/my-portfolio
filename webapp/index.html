@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carlo Castro</title>
+    <!-- w3 css I just borrow this hehe -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- using npm install -->
+    <script src="scripts/packages/angular.min.js"></script>
+    <script src="scripts/packages/angular-jwt.min.js"></script>
+    <script src="scripts/packages/angular-ui-router.min.js"></script>
+    <script src="scripts/app.js"></script>
+
+    <!-- controllers -->
+    <script src="scripts/controllers/homeController.js"></script>
+
+</head>
+<div ng-app="PORTFOLIO" ng-cloak>
+    <div></div>
+    <fieldset ng-disabled="loading">
+        <div ui-view></div>
+    </fieldset>
+</div>
+
+</html>

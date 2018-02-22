@@ -1,0 +1,26 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "script"
+  },
+  "author": "Carlo Castro",
+  "license": "MIT",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.15"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cfixed05/my-portfolio.git"
+  },
+  "keywords": [
+    "None"
+  ],
+  "bugs": {
+    "url": "https://github.com/cfixed05/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/cfixed05/my-portfolio#readme"
+}
