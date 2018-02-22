@@ -9,6 +9,6 @@ app.get("/", (req, res) => {
     res.sendfile(path.join(__dirname + "/index.html"));
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
     console.log("running in port " + port);
 });
